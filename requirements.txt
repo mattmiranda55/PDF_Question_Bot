@@ -1,0 +1,11 @@
+streamlit
+ibm_watson_machine_learning
+python-dotenv
+langchain
+pypdf
+unstructured
+chromadb
+Cython
+tiktoken
+unstructured[local-inference]
+sentence_transformers
