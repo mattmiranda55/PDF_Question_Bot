@@ -14,6 +14,10 @@ import streamlit as st
 import os
 from tempfile import NamedTemporaryFile
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 st.sidebar.title('Watsonx.AI Keys')
 api_key = st.sidebar.text_input("API Key")
 projectid = st.sidebar.text_input("Project ID")

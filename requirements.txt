@@ -9,3 +9,4 @@ Cython
 tiktoken
 unstructured[local-inference]
 sentence_transformers
+pysqlite3-binary
