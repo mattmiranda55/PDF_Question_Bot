@@ -9,3 +9,4 @@ Cython
 tiktoken
 unstructured[local-inference]
 sentence_transformers
+sqlite>=3.35.0
